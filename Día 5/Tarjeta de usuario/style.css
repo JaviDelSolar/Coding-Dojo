@@ -1,0 +1,50 @@
+.tarjetausuario{
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+    font-family: cursive;
+}
+.imagen{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    border: 5px solid white;
+    border-radius: 50pc;
+}
+.bloque1{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(121, 121, 212);
+    align-items: center;
+    justify-content: center;
+}
+.bloque2{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+}
+.nombre{
+    padding-top: 60px;
+    padding-left: 20px;
+    width: 800px;
+}
+.Ubicacion{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.rueda{
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+

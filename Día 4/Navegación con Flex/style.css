@@ -1,0 +1,36 @@
+.nav{
+    background-color: grey;
+    display: flex;
+    width: 1350px;
+}
+.nav-title{
+    color: white;
+    font-family: cursive;
+    padding-left: 10px;
+    margin: 0%; 
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 700px;
+}
+a{
+    color: white;
+    font-family: cursive;
+    text-decoration-line: none;
+    text-align: right;
+    padding-right: 50px;
+}
+.active{
+    font-weight: 900;
+}
+.btn{
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+    background-color: rgb(45, 166, 214);
+}

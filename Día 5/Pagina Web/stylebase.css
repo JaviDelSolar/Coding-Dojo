@@ -1,0 +1,212 @@
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: black;
+    color: white;      
+    font-family: cursive;
+}
+.profile{
+    margin-left: 300px;
+    margin-right: 0px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-right: 100px;
+}
+.menu >a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+.myprofile{
+    font-weight: 600;
+}
+.boton{
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    background-color: blue;
+    margin-left: 200px;
+    font-family: cursive;
+}
+.tarjetausuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;    
+    margin-left: 200px;
+    font-family: cursive;
+    padding-left: 50px;
+}
+.bloqueazul{
+    background-color: rgb(67, 171, 212);
+    width: 500px;
+    height: 100px;
+    border: 1px solid rgb(67, 171, 212);
+}
+.imagen{
+    position: relative;
+    margin-left: 40px;
+    top: 40px;
+    border: 5px solid white;
+    border-radius: 50pc;
+}
+.bloqueblanco{
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(187, 181, 181);
+    width: 500px;
+}
+.nombre{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.Ubicacion{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.texto{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.rueda{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-left: 250px;
+    background-color: grey;
+    border: 1px solid rgb(187, 181, 181);
+}
+h2{
+    margin-left: 20px;
+}
+.coding{
+    background-color: white;   
+}
+.coding >p{
+    margin-left: 20px;
+}
+.c{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.t{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.caja2{
+    position: absolute;
+    left: 800px;
+    top: 130px;
+    width: 400px;
+    border: 1px solid rgb(187, 181, 181);
+}
+.connection{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 400px;
+}
+#Mas{
+    margin-top: 17px;
+    height: 30px;
+    padding: 0 15px;
+    background-color: rgb(173, 168, 168);
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.dupla{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.persona1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+h3{
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 100px;
+}
+ul> li{
+    display: flex;
+    margin-left: 30px;
+}
+.persona2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.phil{
+    margin-left: 10px;
+}
+.ul2{
+    display: flex;
+    list-style: none;
+    padding-left: 100px;
+}
+.caja3{
+    position: absolute;
+    left: 800px;
+    top: 399px;
+    width: 400px;
+    border: 1px solid rgb(187, 181, 181);
+}
+.your{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 400px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.persona11{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.persona22{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.persona33{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.persona44{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+a{
+    padding-left: 20px;
+}
