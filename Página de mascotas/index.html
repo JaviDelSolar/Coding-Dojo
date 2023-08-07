@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylo.css">
+    <title>Refugio para mascotas</title>
+</head>
+
+<body>
+    <div class="contenedor">
+<!-- cuadro que contiene todo-->
+        <div class="cuadroprincipal"> 
+<!-- cuadro azul-->
+            <div class="nav">
+                <div class="pet"> <!--imagen y titulo-->
+                    <img class="corazon" src="./imagenes/heart-light.png" alt="imagen" height="80px">
+                    <h1 class="pet1">Pet Shelter</h1>
+                </div>
+                <div class="formulario"> <!--los 3 cuadros-->
+                    <div class="cuadro1"> <!--parrafo, imagen y seleccionar-->
+                        <div class="parrafo">
+                            <h2>I'm looking for a...</h2>
+                        </div>
+                            <div class="select">
+                                <img src="./imagenes/paw-light.png" alt="imagen" height="50px">
+                                <select name="Any Pet" id="anyPet" onchange="alertaclick()">
+                                    <option value="">Any Pet</option>
+                                    <option value="Perro">Perro</option>
+                                    <option value="Gato">Gato</option>
+                                    <option value="Conejo">Conejo</option>
+                                    <option value="Hamster">Hamster</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="cuadro2"> <!--parrafo, imagen y entrada de texto-->
+                        <div class="parrafo">
+                            <h2>in or near</h2>
+                        </div>
+                            <div class="select">
+                                <img src="./imagenes/pin-light.png" alt="imagen" height="50px">              
+                                <input class="city" type="text" name="City" placeholder="City or Zip Code"> 
+                            </div>
+                    </div>        
+                    <div class="cuadro3"> <!--boton-->
+                        <button class="btn">Find your new best friend</button>
+                    </div> 
+                </div>
+                <div class="nav-select"> <!--en la parte superior derecha-->
+                    <ul class="lista">
+                        <li><strong>Find a pet</strong></li>
+                        <li><strong>About</strong></li>
+                        <button class="btn1" onclick="ocultarBoton(this)"><strong>Donate</strong></button>
+                    </ul>
+                </div>
+            </div>
+<!-- cuadro blanco que contiene los 3 rectangulos-->
+            <div class="informacion">
+                <div class="rectangulo1">
+                    <img class="pepper" src="./imagenes/pepper.jpg" alt="imagen" height="200px">
+                    <div class="mascota1"> <!--titulo, texto, boton-->
+                        <div class="titulo">
+                            <h1>Pepper</h1>
+                        </div>
+                        <div class="texto">
+                            <h2>Pepper is a slightly grey tabby, but she really loves showing her human affection.</h2>
+                        </div>
+                        <div class="boton">
+                            <h2 id="count">3 petting(s)</h2>
+                            <button class="botones" onclick="agregar()">Pet Pepper</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangulo2">
+                    <img  class="bruce" src="./imagenes/bruce.jpg" alt="imagen" height="200px">
+                    <div class="mascota1"> <!--titulo, texto, boton-->
+                        <div class="titulo">
+                            <h1>Bruce</h1>
+                        </div>
+                        <div class="texto">
+                            <h2>Bruce is a loyal companion. He loves long walks and cold weather.</h2>
+                        </div>
+                        <div class="boton">
+                            <h2 id="count1">5 petting(s)</h2>
+                            <button class="botones" onclick="agregar1()">Pet Bruce</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangulo3">
+                    <img class="oscar" src="./imagenes/oscar.jpg" alt="imagen" height="200px">
+                    <div class="mascota1"> <!--titulo, texto, boton-->
+                        <div class="titulo">
+                            <h1>Oscar</h1>
+                        </div>
+                        <div class="texto">
+                            <h2>Oscar is bright, energetic and friendly. He is looking for good home.</h2>
+                        </div>
+                        <div class="boton">
+                            <h2 id="count2">8 petting(s)</h2>
+                            <button class="botones" onclick="agregar2()">Pet Oscar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./js/index.js"></script>
+</body>
+</html>

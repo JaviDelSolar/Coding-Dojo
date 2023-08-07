@@ -1,0 +1,213 @@
+.contenedor{
+    display: flex;
+    justify-content:center;
+}
+.cuadroprincipal{
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 103, 136);
+    color: white;
+    height: 250px;
+    border: 5px solid black;
+    width: 1500px;
+}
+.pet{
+    display: flex;
+    justify-content:flex-start;
+    background-color: rgb(21, 103, 136);
+    margin: 200px;
+    width: 370px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 80px;
+    font-size: x-large;
+}
+.corazon{
+    margin-top: 20px;
+    
+}
+.pet1{
+    margin-left: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    margin: 200px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 1260px
+}
+.cuadro1{
+    margin: 10px;
+    width: 300px;
+
+}
+.parrafo{
+    margin: 10px;
+    font-size:medium;
+}
+.select{
+    display: flex;
+    flex-direction: row;
+}
+#anyPet{
+    border: 2px solid black;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: large;
+    width: 1000px;
+}
+.cuadro2{
+    margin: 10px;
+    width: 250px;
+    margin-left: 50px;
+}
+.city{
+    border: 2px solid black;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+.cuadro3{
+    margin-left: 140px;
+    width: 200px;
+    margin-top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    margin-top: 60px;
+    width: 350px;
+    padding: 8px;
+    font-size:x-large;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+    
+}
+.nav-select{
+    position: absolute;
+    left: 720px;
+    color: black;
+    margin-left: 200px;
+    list-style: none;
+    width: 700px;
+    height: 60px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size:xx-large;
+    
+}
+.btn1{
+    border: 2px solid blue;
+    color: purple;
+    font-size:x-large;
+    width: 100px;
+    height: 30px;  
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.informacion{
+    margin: 200px;
+    margin-top: 0px;
+}
+.rectangulo1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 1055px;
+}
+.pepper{
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+    
+}
+.titulo{
+    width: 100px;
+    margin: 20px;
+    font-size: x-large;
+}
+.texto{
+    width: 540px;
+    margin: 20px;
+}
+#count{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+    bottom: 120px;
+    color: white;
+    font-size: medium;
+}
+.rectangulo2{
+    margin: 10px;
+    background-color: rgb(211, 203, 203);
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 1050px;
+}
+.bruce{
+    display: flex;
+    margin: 10px;
+    margin-top: 70px;
+}
+#count1{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.rectangulo3{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 1050px;
+}
+.oscar{
+    display: flex;
+    margin: 10px;
+    padding-top: 50px;
+}
+#count2{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 250px;
+    padding: 8px;
+    font-size: medium;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 150px;
+    top: 100px;
+}
