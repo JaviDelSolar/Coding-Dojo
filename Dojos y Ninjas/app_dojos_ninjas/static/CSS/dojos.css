@@ -1,0 +1,15 @@
+.contenedor_principal{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    
+}
+.dojos{
+   border: 1px solid black;
+   padding: 50px; 
+}
+.seccion_izquierda, .seccion_derecha{
+    flex: 1;
+    padding: 10px;
+
+}

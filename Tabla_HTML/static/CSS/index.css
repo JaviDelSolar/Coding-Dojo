@@ -1,0 +1,15 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.titulo{
+    background-color: rgb(199, 51, 14);
+    color: white;
+}
+
+.usuarios{
+    text-align: center;
+
+}

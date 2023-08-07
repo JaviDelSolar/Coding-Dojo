@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Success</title>
+</head>
+<body>
+    <div class="card mx-auto col-6 bg-dark text-primary p-4">
+    <form method="POST" action="/nueva/encuesta">
+        <h1 class="card-title">Resultados de la encuesta</h1>
+        <p class="card-text text-light" id="nombre" name="nombre">Nombre: {{ session['nombre'] }}</p>
+        <p class="card-text text-light">Ubicacion Dojo: {{ session['ubicacion'] }}</p>
+        <p class="card-text text-light">Idioma Favorito: {{ session['idioma'] }}</p>
+        <p class="card-text text-light">Comentarios: {{ session['comentarios'] }}</p>
+    <div>
+        <a href="/" class="btn btn-primary">Home</a>
+    </div>
+        <ul>
+            {% for item in index %}
+            <li class="encuenta">
+                {{ item["nombre"] }} - {{ item["identificacion"] }} - {{ item["idioma favorito"] }} - {{ item["comentarios"] }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    </form>
+</body>
+</html>
+
+<div>
+    <label for="estatus">Estatus</label>
+    <select id="estatus" name="estatus">
+        <option value="completo">Completo</option>
+        <option value="en_proceso">En proceso</option>
+        <option value="pendiente">Pendiente</option>
+        <option value="cancelado">Cancelado</option>
+    </select>
+    <div>
+        <label for="identificador">Identificador</label>
+        <input type="number" id="identificador" name="identificador">
+    </div>
+</div>

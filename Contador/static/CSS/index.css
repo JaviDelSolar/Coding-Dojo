@@ -1,0 +1,57 @@
+.contador{
+    display: flex;
+    justify-content:center;
+}
+
+.time{
+    text-align: center;
+    font-size: small;
+}
+.botones{
+    display: flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+    
+}
+
+.boton{
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: green;
+    color: black;
+    margin: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.boton1{
+    text-align: center;
+    height: 20px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: red;
+    color: black;
+    margin: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.boton2{
+    display: flex;
+    justify-content:center;
+    height: 20px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: blue;
+    color: black;
+    margin: 10px;
+    border: 2px solid black;
+    margin-left: 320px;
+    text-decoration: none;
+}
+
+p{
+    font-size: xx-small;
+}
